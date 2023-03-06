@@ -19,8 +19,8 @@ const Navbar: React.FC = () => {
             window.scrollTo(0, 0);
           }}>
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Artyom <span className="sm:block hidden">| Hovsepyan</span>
+          <p className="text-white text-[18px] font-bold cursor-pointe flex">
+            Artyom&nbsp;<span className="sm:block hidden">| Hovsepyan</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
