@@ -18,11 +18,13 @@ import {
   meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  shopify, blog,
   threejs,
+  contactManager,
+  dalle,
+  nft,
+  pizza,
+  socialsquare,
 } from "../assets";
 
 export const navLinks = [
@@ -182,67 +184,180 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Social Square",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A social media application build via React, Firebase and with many latest technologies.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux toolkit",
+        color: "green-text-gradient",
+
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+
+      },
+    ],
+    image: socialsquare,
+    source_code_link: "https://github.com/tyommmm/social-media",
+  },
+  {
+    name: "Blog App",
+    description:
+      "A Blog app built using React and Firebase with many other features.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "material UI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: blog,
+    source_code_link: "https://github.com/tyommmm/solo-blog-app",
   },
   {
-    name: "Job IT",
+    name: "DALL-E Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A clone of the OpenAI DALL-E app, built using the MERN stack , Tailwind CSS, the OpenAI API, and Cloudinary.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "cloudinary",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mern",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: dalle,
+    source_code_link: "https://github.com/tyommmm/dalle-clone",
+  },
+  {
+    name: "Pizza Store",
+    description:
+      "Online Pizza Store built by React.js, Typescript, Redux Toolkit, SASS, Axios , React Hooks",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux toolkit",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "react hooks",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pizza,
+    source_code_link: "https://github.com/tyommmm/pizza",
+  },
+  {
+    name: "Contact Manager",
+    description:
+      "Contact Manager Web application built by React.js, React Hooks, Axios, Tailwind.css , Mockapi.io and many more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux toolkit",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react hooks",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: contactManager,
+    source_code_link: "https://github.com/tyommmm/Contact-Manager",
+  },
+  {
+    name: "NFT Landing Page",
+    description:
+      "Fully responsive and interactive NFT landing page, built from figma template.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nft,
+    source_code_link: "https://github.com/tyommmm/nft-website",
   },
 ];
 
